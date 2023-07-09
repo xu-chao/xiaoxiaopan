@@ -1,8 +1,8 @@
 {
-  "name": "kanban-desktop",
-  "title": "kanban-desktop",
+  "name": "xiaoxiaopan",
+  "title": "小小潘",
   "version": "2.6.0",
-  "description": "Kanban Desktop Electron Based",
+  "description": "小小潘 Electron Based",
   "buildinf": "Stable Build 2023-03-20",
   "main": "index.js",
   "scripts": {
@@ -12,14 +12,14 @@
   },
   "keywords": [
     "AI",
-    "Kanban"
+    "GirlFriend"
   ],
-  "author": "JimHan",
+  "author": "xuchao",
   "license": "GPL",
   "build": {
-    "productName": "Kanban-Desktop",
-    "appId": "com.Zerolite.Kanban-Desktop",
-    "copyright": "2023 Zerolite Studio All Rights Reserved.",
+    "productName": "小小潘",
+    "appId": "com.xuchao.xiaoxiaopan",
+    "copyright": "2023 xiaoxiaopan Studio All Rights Reserved.",
     "asar": true,
     "directories": {
       "buildResources": "build",

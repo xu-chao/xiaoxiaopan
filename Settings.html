@@ -12,7 +12,7 @@
 </script>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Kanban Desktop - Settings</title>
+	<title>小小潘 - Settings</title>
     <link rel="stylesheet" type="text/css" href="includes/waifu.css?v=1.4.2"/>
     <link rel="stylesheet" href="./includes/winui3.css">
     <script src="includes/jquery.min.js"></script>
@@ -152,7 +152,7 @@
         document.getElementById(`${versionType}-version`).innerText = process.versions[versionType]  // Get Framework
         }
         // *更新检测
-        $.getJSON("https://api.github.com/repos/jimhans/live2d-kanban-desktop/releases/latest", function(data1){
+        $.getJSON("https://api.github.com/repos/jimhans/xiaoxiaopan/releases/latest", function(data1){
             document.getElementById('update_button').style.backgroundColor='#252525';
             if(data1.tag_name!=("v"+package.version)){
             document.getElementById('setTabInfo').style.backgroundColor='#393d1b';

@@ -1,4 +1,4 @@
-/* Main Progress of Kanban Desktop */
+/* Main Progress of 小小潘 */
 
 const { app, BrowserWindow , Menu , Tray, shell, ipcMain} = require('electron')
 const dialog = require('electron').dialog;

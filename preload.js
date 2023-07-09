@@ -1,4 +1,4 @@
-/* Preload Script of Kanban Desktop */
+/* Preload Script of 小小潘 */
 window.nodeRequire = require;
 delete window.require;
 delete window.exports;

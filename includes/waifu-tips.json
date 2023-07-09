@@ -4,7 +4,7 @@
         "copy_message": ["你都复制了些什么呀，转载要记得加上出处哦"],
         "screenshot_message": ["照好了嘛，是不是很可爱呢？"],
         "hidden_message": ["我们还能再见面的吧…"],
-        "load_rand_textures": ["我还没有其他衣服呢", "我的新衣服好看嘛"],
+        "load_rand_textures": ["我还没有其他衣服呢", "我的新衣服好看咩"],
         "hour_tips": {
             "t5-7": ["早上好！一日之计在于晨，美好的一天就要开始了"],
             "t7-11": ["上午好！工作顺利嘛，不要久坐，多起来走动走动哦！"],
@@ -26,8 +26,8 @@
         },
       "referrer_hostname": {
         "example.com": [ "示例网站" ],
-        "www.fghrsh.net": [ "FGHRSH 的博客" ],
-        "www.zerolite.cn": [ "翎风 的博客" ]
+        "www.fghrsh.net": [ "xuchao 的博客" ],
+        "www.zerolite.cn": [ "程序员小许 的博客" ]
       },
         "model_message": {
             "1": ["来自 Potion Maker 的 Pio 酱 ~"],
@@ -46,12 +46,12 @@
 		{ "selector": ".fui-toolicon", "text": ["看看有什么小工具吧！"] },
         { "selector": ".fui-home", "text": ["点击前往首页，想回到上一页可以使用浏览器的后退功能哦"] },
         { "selector": ".fui-chat", "text": ["一言一语，一颦一笑。一字一句，一颗赛艇。"] },
-        { "selector": ".fui-eye", "text": ["嗯··· 要切换 看板娘 吗？"] },
+        { "selector": ".fui-eye", "text": ["嗯··· 要切换 小小潘 吗？"] },
         { "selector": ".fui-user", "text": ["喜欢换装 Play 吗？"] },
         { "selector": ".fui-Set", "text": ["要打开设置吗？"] },
         { "selector": ".fui-photo", "text": ["要拍张纪念照片吗？"] },
         { "selector": ".fui-info-circle", "text": ["这里有关于我的信息呢"] },
-        { "selector": ".fui-cross", "text": ["(o゜▽゜)o☆要进入专注模式吗？ 专注模式下，看板娘将缩小至右下角悬浮球，避免遮挡屏幕~"] },
+        { "selector": ".fui-cross", "text": ["(o゜▽゜)o☆要进入专注模式吗？ 专注模式下，小小潘将缩小至右下角悬浮球，避免遮挡屏幕~"] },
         { "selector": "#tor_show", "text": ["翻页比较麻烦吗，点击可以显示这篇文章的目录呢"] },
         { "selector": ".fui-moon", "text": ["深夜时要爱护眼睛呀~点击开启夜间模式~"] },
         { "selector": "#comment_go", "text": ["想要去评论些什么吗？"] },
@@ -75,8 +75,8 @@
         { "selector": "c-player div.volume", "text": ["在这里可以调整<span style=\"color:#0099cc;\">音量</span>呢"] },
         { "selector": "c-player div.list-button", "text": ["<span style=\"color:#0099cc;\">播放列表</span>里都有什么呢"] },
         { "selector": "c-player div.lyric-button", "text": ["有<span style=\"color:#0099cc;\">歌词</span>的话就能跟着一起唱呢"] },
-        { "selector": ".waifu #live2d", "text": ["干嘛呢你，快把手拿开","我要生气了哦" ,"鼠…鼠标放错地方了！","跟我聊天吧~","给👴爬","你要干嘛呀","别摸我！有什么好摸的"] },
-        { "selector": "#span_dt_dt", "text": ["小站已经在风雨中经历了{text},以后还请多多关照咯！"]},
+        { "selector": ".waifu #live2d", "text": ["干嘛呢你，快把手拿开","我要生气了哦" ,"鼠…鼠标放错地方了！","跟我说说话吧~","给👴爬","你要干嘛呀","别摸我！有什么好摸的"] },
+        { "selector": "#span_dt_dt", "text": ["小小潘已经在风雨中经历了{text},以后还请多多关照咯！"]},
         { "selector": ".kratos-post-meta", "text": ["这里是文章的一些信息哦！"]},
         { "selector": ".github-tip", "text": ["来看看主人有哪些开源项目吧！"]},
         { "selector": ".rss-tip", "text": ["来订阅主人的RSS吧"]},

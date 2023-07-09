@@ -78,7 +78,7 @@ function createWindow () {
     // 并且为你的应用加载index.html
     settings.loadFile('Settings.html');
     //settings.webContents.openDevTools();
-  
+
     settings.webContents.on("before-input-event", (event, input) => { //禁用alt+f4
       if(input.key === "F4" && input.alt){
             event.preventDefault();
@@ -91,7 +91,7 @@ function createWindow () {
   //系统托盘右键菜单
   var trayMenuTemplate = [
     {
-      label: 'Kanban-Desktop 设置',
+      label: '小小潘 设置',
       click: function () {
         if(settings==null||settings.isDestroyed()){settingsShow ();}
         else {
@@ -122,27 +122,27 @@ function createWindow () {
             // // 并且为你的应用加载index.html
             // settings.loadFile('Settings.html');
             // //settings.webContents.openDevTools();
-  
+
             // settings.webContents.on("before-input-event", (event, input) => { //禁用alt+f4
             //   if(input.key === "F4" && input.alt){
             //         event.preventDefault();
             //   }
             //   settings.webContents.setIgnoreMenuShortcuts(input.key === "F4" && input.alt);
             // })
-        }  
+        }
       } //打开设置
     },
     {
       label: '检查更新',
-      click: function () {shell.openExternal("http://studio.zerolite.cn")} //打开相应页面
+      click: function () {shell.openExternal("https://xu-chao.github.io")} //打开相应页面
     },
     {
       label: '关于',
       click: function () {
         dialog.showMessageBox({
-          title  : '关于', 
-          type  : 'info', 
-          message : packageGet.name+" v"+packageGet.version+' Stable Powered By Electron™.'
+          title  : '关于',
+          type  : 'info',
+          message : packageGet.name+" v"+packageGet.version+' Stable Powered By XC.'
         })
       } //打开相应页面
     },
@@ -203,9 +203,9 @@ function createWindow () {
   let contextMenu = Menu.buildFromTemplate(trayMenuTemplate);
 
   //设置此托盘图标的悬停提示内容
-  tray.setToolTip('Kanban-Desktop');
+  tray.setToolTip('小小潘');
 
-  app.setAppUserModelId('Kanban-Desktop');
+  app.setAppUserModelId('小小潘');
   //设置此图标的上下文菜单
   tray.setContextMenu(contextMenu);
 
@@ -272,7 +272,7 @@ function createWindow () {
 
   //开发人员工具打开监听
   ipcMain.on("dev",(event,data) => {
-    console.log(data); 
+    console.log(data);
     if(data == 'Open') {settings.webContents.openDevTools();win.webContents.openDevTools();}
   });
 }

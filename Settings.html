@@ -25,7 +25,7 @@
     <div class="container" id="container">
         <div class="TitleBar">
             <img src="./assets/app.png" width="25" height="25" style="position: absolute;line-height: 26px;margin: 4px 0px 0px 5px;left:5px;">
-            <a id="Title" style="height: 30px;line-height: 30px;position:absolute;left:40px;right:30%;text-align: left;">Kanban-Desktop</a>
+            <a id="Title" style="height: 30px;line-height: 30px;position:absolute;left:40px;right:30%;text-align: left;">小小潘</a>
         </div>
         <!-- <div class="closeset"  onclick="closeset();"><image src="./assets/Cross.png"></image></div> -->
         <div class="setTab" id="setTab"> <!--设置tab-->
@@ -50,12 +50,12 @@
                 <h3 style="margin-top:15px;margin-bottom:15px;margin-left:13px;">📱 工具栏设置</h3>
                 <div href="javascript:;" class="button" value="保存并应用" onclick="submitA();" style="top: 10px;user-select: none;width:auto" >&nbsp;&nbsp;保存并应用&nbsp;&nbsp;</div>
                 <div class="brickContainer">显示工具栏<label class="switch"><input class="input" type="checkbox" name="checkboxA" value="showToolbar"><div class="slider"></div></label></div>
-                <div class="brickContainer">不隐藏看板娘工具栏<label class="switch"><input class="input" type="checkbox" name="checkboxA" value="noHideToolbar"><div class="slider"></div></label></div>
+                <div class="brickContainer">不隐藏小小潘工具栏<label class="switch"><input class="input" type="checkbox" name="checkboxA" value="noHideToolbar"><div class="slider"></div></label></div>
                 <div class="brickContainer">显示 最小化按钮<label class="switch"><input class="input" type="checkbox" name="checkboxA" value="showMinimum"><div class="slider"></div></label></div>
                 <div class="brickContainer">显示 模型切换按钮<label class="switch"><input class="input" type="checkbox" name="checkboxA" value="showModelSwitch"><div class="slider"></div></label></div>
                 <div class="brickContainer">显示 材质切换按钮<label class="switch"><input class="input" type="checkbox" name="checkboxA" value="showTextureSwitch"><div class="slider"></div></label></div>
                 <div class="brickContainer">显示 一言切换按钮<label class="switch"><input class="input" type="checkbox" name="checkboxA" value="showHitokotoSwitch"><div class="slider"></div></label></div>
-                <div class="brickContainer">显示 看板娘截图按钮<label class="switch"><input class="input" type="checkbox" name="checkboxA" value="showScreenShot"><div class="slider"></div></label></div>
+                <div class="brickContainer">显示 小小潘截图按钮<label class="switch"><input class="input" type="checkbox" name="checkboxA" value="showScreenShot"><div class="slider"></div></label></div>
                 <div class="brickContainer">显示 跳转关于页按钮<label class="switch"><input class="input" type="checkbox" name="checkboxA" value="showInfo"><div class="slider"></div></label></div>
                 <div class="brickContainer">显示 夜间模式按钮<label class="switch"><input class="input" type="checkbox" name="checkboxA" value="showNightmode"><div class="slider"></div></label></div>
                 <div class="brickContainer">显示 返回首页按钮<label class="switch"><input class="input" type="checkbox" name="checkboxA" value="showMainpage"><div class="slider"></div></label></div>
@@ -75,7 +75,7 @@
                 <div class="brickContainer">显示一言<label class="switch"><input class="input" type="checkbox" name="checkboxB" value="showHitokoto" /><div class="slider"></div></label></div>
                 <div class="brickContainer">显示欢迎词<label class="switch"><input class="input" type="checkbox" name="checkboxB" value="showWelcome" /><div class="slider"></div></label></div>
                 <div class="brickContainer">自定义模型API<!-- <li style="margin-top:10px;margin-bottom:3px;">自定义模型API</li> --><input class="inputText" type="text" name="checkboxB" placeholder="输入自定义API地址" required></div>
-                
+
                 <h3 style="margin-top:15px;margin-bottom:15px;margin-left:13px;">🧭 悬浮球设置</h3>
                 <div class="brickContainer" style="height: 100px;">
                     <div id="localBubbleCurrentPath" style="margin:auto 10px;text-align: center;height:80px;width:80px;background-size:cover;border-radius:7px;box-shadow: 0px 0px 5px 0px rgba(45, 45, 45, 0.75);"></div>
@@ -83,7 +83,7 @@
                 document.getElementById('localBubbleCurrentPath').style.background = 'url('+document.getElementById('localBubbleSelect').files[0].path.replaceAll('\\','/')+') no-repeat center';document.getElementById('localBubbleCurrentPath').style.backgroundSize='cover'}"></div>
                 </div> <!-- 获取Bubble本地背景文件路径 -->
                 <div class="brickContainer">当前选定背景<div id="fileInfoBubble" class="fileInfo" style="border: none;">未选定</div></div>
-                
+
                 <h3 style="margin-top:15px;margin-bottom:15px;margin-left:13px;">📚 高级设置<a style="font-size: 13px;"> 自定义更多高级设置项</a></h3>
                 <div class="brickContainer"><div>自定义搜索引擎<br><!--<li style="margin-top:10px;margin-bottom:3px;">自定义搜索引擎</li>--><a class="brickSubtitle">输入搜索引擎URL</a></div>
                 <input class="inputText" type="text" name="checkboxB" placeholder="默认为Google" required></div>
@@ -91,7 +91,7 @@
                 <div class="brickContainer" style="height: 60px;color: #ff4848;"><div>清除数据<br><a class="brickSubtitle" style="font-size: 13px;color: #ff4848;"> 清除所有用户数据（谨慎操作！）</a></div>
                     <button type="button" value="清除数据" onclick="localStorage.clear();" class="button_red" style="width:120px">清除所有数据</button>
                 </div>
-                
+
                 <div class="box">
                     <button type="button" value="保存并应用" onclick="submitB();" class="btn">保存并应用</button>
                 </div>
@@ -118,7 +118,7 @@
                 <h3 style="margin-top:15px;margin-bottom:15px;margin-left:13px;">🧪 语言模型设置</h3>
                 <div class="brickContainer">ChatGPT对话支持<label class="switch"><input class="input" type="checkbox" name="checkboxC" value="ChatGPTFunc"><div class="slider"></div></label></div>
                 <div class="brickContainer">ChatGPT API Key<input class="inputText" type="text" name="checkboxC" placeholder="输入API Key" required></div>
-                
+
                 <!-- <div class="box">
                     <button type="button" value="保存并应用" onclick="submitC();" class="btn">保存并应用</button>
                 </div> -->
@@ -127,17 +127,17 @@
         </div>
         <div class="setpage" id="setpageInfo" style="display: none;">
             <div class="setpageINNER">
-                <h3 style="margin-top:15px;margin-bottom:15px;margin-left:13px;">🚀 关于Kanban-Desktop</h3>
+                <h3 style="margin-top:15px;margin-bottom:15px;margin-left:13px;">🚀 关于小小潘</h3>
                 <div style="text-align: center;"><img src="./assets/app.png" alt="App Info" width="84" height="84"></div>
                 <div class="brickContainer">当前版本<p id="App_Ver" class="brickRightText"></p></div>
                 <div class="brickContainer" id="if_have_update"><div id="update_ver_get" style="position:absolute;left:10px"></div>
-                <button type="button" value="查看更新" onclick="shell.openExternal('https://github.com/JimHans/live2d-kanban-desktop/releases/latest');" class="button" id="update_button">查看更新</button></div>
+                <button type="button" value="查看更新" onclick="shell.openExternal('https://github.com/xu-chao/xiaoxiaopan/releases/latest');" class="button" id="update_button">查看更新</button></div>
                 <div class="brickContainer">Build Version<p id="App_Build" class="brickRightText"></p></div>
                 <!-- *版本信息 -->
                 <div class="brickContainer">Node.js 版本<span id="node-version" class="brickRightText"></span></div>
                 <div class="brickContainer">Chromium 内核版本<span id="chrome-version" class="brickRightText"></span></div>
                 <div class="brickContainer">Electron 框架版本<span id="electron-version" class="brickRightText"></span></div>
-                <div class="brickContainer">Designed By<span class="brickRightText">JimHan @ Zerolite Studio</span><!--<p style="font-size: 14px;margin-bottom:-5px;">Designed By JimHan @ Zerolite Studio</p>--></div>
+                <div class="brickContainer">Designed By<span class="brickRightText">XUCHAO</span><!--<p style="font-size: 14px;margin-bottom:-5px;">Designed By JimHan @ Zerolite Studio</p>--></div>
             </div>
         </div>
     </div>
@@ -148,7 +148,7 @@
         var package = nodeRequire("./package.json");
         document.getElementById("App_Ver").innerHTML=package.name+" v"+package.version; // Get Version
         document.getElementById("App_Build").innerHTML=package.buildinf; // Get Build
-        for (const versionType of['chrome', 'electron', 'node']) { 
+        for (const versionType of['chrome', 'electron', 'node']) {
         document.getElementById(`${versionType}-version`).innerText = process.versions[versionType]  // Get Framework
         }
         // *更新检测
@@ -160,7 +160,7 @@
             document.getElementById('update_ver_get').innerText='有新版本：版本号 '+data1.tag_name;
             document.getElementById('if_have_update').style.backgroundColor='#393d1b';}
         else{document.getElementById('update_ver_get').innerText='当前是最新版本';document.getElementById('if_have_update').style.backgroundColor='#2b4f6c';}
-        }).fail(function() {document.getElementById('update_ver_get').innerText='无法检测到版本更新数据'}); 
+        }).fail(function() {document.getElementById('update_ver_get').innerText='无法检测到版本更新数据'});
     }
 
     // 初始化PageA复选框
@@ -200,9 +200,9 @@
     if (localStorage.getItem(checkboxCInit[4].value) == 'true') {checkboxCInit[4].checked = true;}
     if ((!localStorage.getItem("ChatgptKey")) || localStorage.getItem("ChatgptKey") == ""){checkboxCInit[5].value="";}
     else {checkboxCInit[5].value=localStorage.getItem("ChatgptKey");} //自定义API获取
-    
+
     // function closeset() {ipcRenderer.send('Settings','Close');} // 关闭
-    
+
     function setpageA() { //点击显示设置页面A
         document.getElementById("setpageA").style.display="block";
         document.getElementById("setpageB").style.display="none";
@@ -218,7 +218,7 @@
         // document.getElementById("setTabB").style.color="black";
         // document.getElementById("setTabC").style.color="black";
     }
-    
+
     function setpageB() { //点击显示设置页面B
         document.getElementById("setpageA").style.display="none";
         document.getElementById("setpageB").style.display="block";
@@ -234,7 +234,7 @@
         // document.getElementById("setTabA").style.color="black";
         // document.getElementById("setTabC").style.color="black";
     }
-    
+
     function setpageC() { //点击显示设置页面C
         document.getElementById("setpageA").style.display="none";
         document.getElementById("setpageB").style.display="none";

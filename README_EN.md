@@ -1,19 +1,3 @@
-<p align="center">
-<img src="./assets/app.png" width=100px height=100px></p>
-<h1 align="center"> Kanban-Desktop </h1>
-<h3 align="center"> An AI Based Kanban for Windows and Linux* Desktop Users </h3>
-<br/>
-<p align="center">
-<img src="https://img.shields.io/badge/Build-passing-green.svg?style=flat-square">
-<img src="https://img.shields.io/github/package-json/v/JimHans/live2d-kanban-desktop?color=red&style=flat-square">
-<img src="https://img.shields.io/badge/Electron-22.0.0-blue.svg?style=flat-square">
-<img src="https://img.shields.io/badge/License-GPL v3.0-purple.svg?style=flat-square">
-</p>
-
-### 🎉A kanban girl plugin that can put on your desktop! Designed for Windows and Linux desktop users with plenty of cloud models. Supports cloud and local moc2 model loading. Plenty of tools like NLP dialog, web search and schedule reminder. Continuously updating.
-
-**Notice: This Readme(English Ver) is partly translated by deepL.com. We'll do our best to finish the translation work.**
----
 ## 🎰Functions available now:
 - Specially designed UI with fake-blur theme and toolbox design for desktop users make it more elegant to use on the desktop.
 - Carry on the past Web version, the app is connected with Tencent NLP API and is able to start conversations timely with texting.

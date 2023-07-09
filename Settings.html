@@ -137,7 +137,7 @@
                 <div class="brickContainer">Node.js 版本<span id="node-version" class="brickRightText"></span></div>
                 <div class="brickContainer">Chromium 内核版本<span id="chrome-version" class="brickRightText"></span></div>
                 <div class="brickContainer">Electron 框架版本<span id="electron-version" class="brickRightText"></span></div>
-                <div class="brickContainer">Designed By<span class="brickRightText">XUCHAO</span><!--<p style="font-size: 14px;margin-bottom:-5px;">Designed By JimHan @ Zerolite Studio</p>--></div>
+                <div class="brickContainer">Designed By<span class="brickRightText">XUCHAO</span></div>
             </div>
         </div>
     </div>
@@ -146,7 +146,7 @@
     const { ipcRenderer,shell } = nodeRequire('electron'); //Electron 依赖调入
     window.onload = function () { //获取软件版本号
         var package = nodeRequire("./package.json");
-        document.getElementById("App_Ver").innerHTML=package.name+" v"+package.version; // Get Version
+        document.getElementById("App_Ver").innerHTML=package.title+" v"+package.version; // Get Version
         document.getElementById("App_Build").innerHTML=package.buildinf; // Get Build
         for (const versionType of['chrome', 'electron', 'node']) {
         document.getElementById(`${versionType}-version`).innerText = process.versions[versionType]  // Get Framework
@@ -189,7 +189,7 @@
     document.getElementById("localBubbleCurrentPath").style.backgroundSize="cover";} //自定义气泡背景获取
     if ((!localStorage.getItem("customAPI")) || localStorage.getItem("customAPI") == ""){checkboxBInit[4].value="//waifuapi.zerolite.cn/live2d-api/";}
     else {checkboxBInit[4].value=localStorage.getItem("customAPI");} //自定义API获取
-    if ((!localStorage.getItem("customSearch")) || localStorage.getItem("customSearch") == ""){checkboxBInit[5].value="https://www.google.com/search?q=";}
+    if ((!localStorage.getItem("customSearch")) || localStorage.getItem("customSearch") == ""){checkboxBInit[5].value="https://www.baidu.com/s?ie=utf-8&wd=";}
     else {checkboxBInit[5].value=localStorage.getItem("customSearch");} //自定义搜索引擎获取
 
     //初始化PageC复选框

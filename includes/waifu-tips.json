@@ -31,7 +31,7 @@
       },
         "model_message": {
             "1": ["来自 Potion Maker 的 Pio 酱 ~"],
-            "2": ["来自 Potion Maker 的 Tia 酱 ~"]  
+            "2": ["来自 Potion Maker 的 Tia 酱 ~"]
         },
         "hitokoto_api_message": {
             "lwl12.com": ["这句一言来自 <span style=\"color:#0099cc;\">『{source}』</span>", "，是 <span style=\"color:#0099cc;\">{creator}</span> 投稿的", "。"],
@@ -79,16 +79,16 @@
         { "selector": "#span_dt_dt", "text": ["小站已经在风雨中经历了{text},以后还请多多关照咯！"]},
         { "selector": ".kratos-post-meta", "text": ["这里是文章的一些信息哦！"]},
         { "selector": ".github-tip", "text": ["来看看主人有哪些开源项目吧！"]},
-        { "selector": ".rss-tip", "text": ["来订阅主人的RSS吧"]}, 
-		{ "selector": ".fui-eyeProtInfo", "text": ["让我提醒你使用时长吧！"]} 
+        { "selector": ".rss-tip", "text": ["来订阅主人的RSS吧"]},
+		{ "selector": ".fui-eyeProtInfo", "text": ["让我提醒你使用时长吧！"]}
     ],
     "click": [
         {
           "selector": ".waifu #live2d",
           "text": [
             "是…是不小心碰到了吧",
-            "萝莉控是什么呀",
-            "你看到我的小熊了吗",
+            "n你是不是喜欢我呀~",
+            "你看到我的草莓熊了吗",
             "(￣▽￣)\"",
             "ヾ(•ω•`)o\"",
             "o((⊙﹏⊙))o.",

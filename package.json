@@ -46,7 +46,7 @@
       "installerHeaderIcon": "./assets/app.ico",
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "Kanban-Desktop"
+      "shortcutName": "小小潘"
     }
   },
   "devDependencies": {
